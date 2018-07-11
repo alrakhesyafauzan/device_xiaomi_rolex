@@ -22,6 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common AOSiP stuff
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# Maintainer Prop
+PRODUCT_BUILD_PROP_OVERRIDES += \
+DEVICE_MAINTAINERS="Anirudh Gupta"
+
 # Inherit from rolex device
 $(call inherit-product, device/xiaomi/rolex/device.mk)
 
