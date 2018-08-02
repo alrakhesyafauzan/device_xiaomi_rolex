@@ -12,7 +12,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 
 # GCC
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-buildroot-linux-gnu-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-bootlin-8.1/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-bootlin-8.2/bin
 
 # Clang
 TARGET_KERNEL_CLANG_COMPILE := true
