@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> <manifest>
+<!-- <remote  name="github"
+           fetch="https://github.com/" /> -->
+<remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+  <project name="anirudhgupta109/device_xiaomi_rolex" path="device/xiaomi/rolex" remote="github" revision="aosip" />
+  <project name="anirudhgupta109/kernel_xiaomi_rolex" path="kernel/xiaomi/rolex" remote="github" revision="aosip" />
+  <project name="anirudhgupta109/vendor_xiaomi_rolex" path="vendor/xiaomi/rolex" remote="github" revision="aosip" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1" />
+  <project name="anirudhgupta109/gcc-prebuilts" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.2" remote="gitlab" revision="8.2.1" />
+</manifest>
